@@ -1,0 +1,31 @@
+{
+  "name": "parking_lot_express_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliemalicay/parking_lot_express_charliemalicay.git"
+  },
+  "author": "Charliemagne C. Malicay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliemalicay/parking_lot_express_charliemalicay/issues"
+  },
+  "homepage": "https://github.com/charliemalicay/parking_lot_express_charliemalicay#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "type": "module"
+}
